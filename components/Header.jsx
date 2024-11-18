@@ -1,7 +1,13 @@
+
+
 import Link from 'next/link'
 import React from 'react'
 import Nav from './Nav'
+
+
+import MobileNav from './MobileNav'
 import { Button } from './ui/button'
+import { Scale } from 'lucide-react'
 
 const Header = () => {
     return (
@@ -20,7 +26,7 @@ const Header = () => {
                 </div>
 
                 <div className='xl:hidden'>
-                    mobile nav
+                    <MobileNav />
                 </div>
 
             </div>

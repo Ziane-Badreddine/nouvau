@@ -28,7 +28,6 @@ const Nav = () => {
             name: "contact",
             path: "/contact"
         }
-
     ]  
 
     const pathname = usePathname()
